@@ -44,9 +44,9 @@ permalink: /assignments/
                   <td>May 24, 19</td>
                 </tr>
                 <tr>
-                  <td>3</td>
+                  <td>4</td>
                   <td></td>
-                  <td>Tests</td>
+                  <td>Tests1,2,3,4</td>
                   <td></td>
                   <td><a href="{{ "https://classroom.github.com/a/FDObu5fU" | relative_url }}">Submit</a></td>
                   <td></td>
