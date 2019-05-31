@@ -51,6 +51,14 @@ permalink: /assignments/
                   <td><a href="{{ "https://classroom.github.com/a/FDObu5fU" | relative_url }}">Submit</a></td>
                   <td></td>
                 </tr>
+                <tr>
+                  <td>5</td>
+                  <td></td>
+                  <td>Test 2</td>
+                  <td></td>
+                  <td><a href="{{ "https://classroom.github.com/a/FnZFqfk9" | relative_url }}">Submit</a></td>
+                  <td>17h May 31,19</td>
+                </tr>
                 <!--<tr>
                   <td rowspan="2">1</td>
                   <td>Dec 3, 18</td>
