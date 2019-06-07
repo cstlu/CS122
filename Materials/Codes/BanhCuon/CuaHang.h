@@ -13,7 +13,7 @@ private:
 	double giabanh;
 	double gianhan[4];
 	double tongdoanhthu;
-	vector<vector<BanhCuon*>> donhangs;
+	vector<vector<BanhCuon*> > donhangs;
 public:
 	CuaHang();
 	//setter;

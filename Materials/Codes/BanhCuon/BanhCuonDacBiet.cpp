@@ -30,7 +30,9 @@ double BanhCuonDacBiet::getKLCaCuong()const
 //methods
 double BanhCuonDacBiet::tinhtien()const
 {
-	return this->tinhtien() + this->giacacuong* this->klcacuong / 100;
+	return this->giavo*this->klvo / 100 +
+		this->gianhan*this->klnhan / 100 + 
+		this->giacacuong* this->klcacuong / 100;
 }
 
 BanhCuonDacBiet::~BanhCuonDacBiet()

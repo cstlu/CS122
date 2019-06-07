@@ -33,6 +33,7 @@ void CuaHang::taodonhang()
 		this->showMenu();
 		cout << "-1: thoat.";
 		cin >> chon;
+		if(chon == -1) break;
 		double klbanh;
 		cout << "Moi ban nhap khoi luong banh: ";
 		cin >> klbanh;
@@ -53,7 +54,7 @@ void CuaHang::taodonhang()
 			break;
 		case 3:
 			double klnhancc;
-			cout << "Moi ban nhap khoi luong nhan ca cuong";
+			cout << "Moi ban nhap khoi luong nhan ca cuong: ";
 			cin >> klnhancc;
 			newdhl.push_back(new BanhCuonDacBiet(this->giabanh, klbanh, this->gianhan[2], klnhan, this->gianhan[3], klnhancc));
 			break;
